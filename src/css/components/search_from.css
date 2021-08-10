@@ -1,0 +1,9 @@
+.search_form_input{
+    height: 50px;
+    background: #F2F2F2;
+    border: 1px solid #848484;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding-left: 1rem;
+
+}

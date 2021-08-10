@@ -1,0 +1,17 @@
+@import url("./vendor/sweet-modal.min.css");
+@import url("./components/header.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("./components/buttons.css");
+@import url("./components/main.css");
+@import url("./components/burger.css");
+@import url("./components/text.css");
+@import url("./components/common.css");
+@import url("./components/footer.css");
+@import url("./components/sidebar.css");
+@import url("./components/search_from.css");
+
+
+@font-face {
+    font-family: 'Roboto';
+    /*src: url('./vendor/Gilroy-Regular.ttf')  format('truetype');  Safari, Android, iOS */
+}

@@ -1,0 +1,35 @@
+.button_blue_solid{
+    background-color: #0086B8;
+}
+
+.button_template{
+    font-family: 'Gilroy', 'sans-serif';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+
+
+.main-search-button{
+    border-top-right-radius: 2rem !important;
+    border-bottom-right-radius: 2rem !important;
+    margin-left: 3px;
+    width: 100%;
+    height: 35px;
+}
+
+.big_template_button{
+    padding: 15px 30px;
+    height: 59px;
+    border-radius: 7px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.vacancy_details_button{
+    height: 59px;
+    border-radius: 7px;
+    padding: 15px 30px 15px 30px;
+}

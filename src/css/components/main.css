@@ -1,0 +1,728 @@
+.main{
+    height: 80vh;
+    z-index: 100;
+    /*position: relative;*/
+
+    background-image: url('../../images/header_img_2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    background-position: left 25% bottom 45%;
+
+}
+
+.red {
+	color: red;
+}
+
+    .main-inside{
+        position: relative;
+        text-align: right;
+    }
+
+    .main-subtitle{
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .main-text{
+        font-size: 50px;
+        letter-spacing: 0.2rem;
+    }
+        .main-text-bold{
+            font-weight: 500;
+        }
+
+    .main-search-input{
+        width: 100%;
+        height: 45px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 7px;
+
+    }
+
+
+    .main-filterMore{
+        /* display: flex !important;
+        justify-content: flex-end !important;
+        text-align: end;
+        align-self: end' */
+    }
+    .main-search-button{
+        background-color: #EF7D00;
+        height: 45px;
+    }
+.collapse_search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding-right: 1rem;
+}
+.content_img {
+  width: 250px;
+}
+
+.riki{
+  display: none;
+}
+.invis {}
+
+.visible_445 {
+  display: none;
+}
+
+.footer_block{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+.invisible-href{
+  display: none;
+}
+
+.header_nav {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.vacanvy_block {
+  display: grid;
+  justify-content: center;
+  border: 1px solid #0086B8;
+  border-radius: 10px;
+
+  width: 200px;
+  height: 220px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  transition: border .3s linear;
+}
+
+	.menu_point_mobile_order{
+	font-size: 14px !important;
+		color:#0086B8!important;
+}
+.menu_point_mobile_phone{
+	font-size: 17px !important;
+	color:#EF7D00 !important;
+}
+
+.vacanvy_block:focus,
+.vacanvy_block:hover {
+  border: 1px solid #EF7D00;
+  filter: invert(49%) sepia(98%) saturate(1662%) hue-rotate(6deg) brightness(96%) contrast(108%);
+  color: black;
+}
+
+.vacanvy_top_block {
+  display: grid;
+  justify-content: center;
+  background-color: #EF7D00;
+  border-radius: 10px;
+
+  width: 90%;
+  height: 220px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  transition: all .3s linear;
+}
+
+.vacanvy_top_block:focus,
+.vacanvy_top_block:hover {
+  background-color: #0086B8;
+}
+
+.section_contuct {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  grid-gap: 20px;
+}
+
+.city_btn {
+  background-color: white;
+  border-radius: 20px;
+  border: 0;
+
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: black;
+}
+
+.block_map {
+  display: grid;
+  justify-content: center;
+}
+
+.map_block {
+  width:740px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+
+  transition: all .3s linear;
+}
+
+.close:hover,
+.close:focus {
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #EF7D00;
+  color: white;
+}
+
+.modal-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  text-align: center;
+}
+
+.modal-link {
+  text-decoration: none;
+  color: black;
+  transition: all .3s linear;
+}
+
+.modal-link:hover {
+  color: dodgerblue;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.close_user_security {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+
+  transition: all .3s linear;
+}
+
+.close_user_agreement {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+
+  transition: all .3s linear;
+}
+
+.close_user_agreement:hover,
+.close_user_agreement:focus {
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn_user_agreement {
+  background-color: #0086B8;
+  color: white;
+  width: 100%;
+  border-radius: 10px;
+  border: 0;
+}
+
+.btn_user_political {
+  background-color: #0086B8;
+  color: white;
+  width: 100%;
+  border-radius: 10px;
+  border: 0;
+}
+
+
+
+.modal_call_order {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left:0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content_call_order {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  left: 35%;
+  border: 1px solid #888;
+  width: 30%;
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+.modal-footer_call_order {
+  padding: 2px 16px;
+  color: white;
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.input_call_order {
+  border-radius: 0px;
+  border: 10px solid black;
+  padding: 15px;
+  border-bottom: 1px solid grey;
+  background-color: #fafafa;
+  width: 100%;
+}
+
+.call_order_subtitle {
+  color: grey;
+}
+
+.inner-modal-footer_call_order {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.close_order_modal {
+  cursor: pointer;
+  color: grey;
+  text-align: right;
+  font-size: 25px;
+  transition: all .3s ease-in-out;
+}
+
+.close_order_modal:hover {
+  color: black;
+}
+
+
+
+
+
+/* The Modal (background) */
+.modal_vacancy {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  padding-top: 8px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content_vacancy {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close_vacancy {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+
+  transition: all .3s linear;
+}
+
+.close_vacancy:hover,
+.close_vacancy:focus {
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header_vacancy {
+  padding: 2px 16px;
+  background-color: white;
+  color: white;
+}
+
+.modal-body_vacancy {
+  text-align: left;
+}
+
+.modal-link_vacancy {
+  text-decoration: none;
+  color: black;
+  transition: all .3s linear;
+}
+
+.modal-link_vacancy:hover {
+  color: dodgerblue;
+}
+
+.modal-footer_vacancy {
+  padding: 2px 16px;
+  background-color: #EF7D00;
+  color: white;
+}
+
+.inner-modal-footer_vacancy {
+  padding-left: 48px;
+  padding-right: 48px;
+
+  text-align: center;
+}
+
+.vacancy_modal_input {
+  border-radius: 10px;
+  padding: 5px;
+  border: 0;
+
+  width: 100%;
+}
+
+.vacancy_modal_btn {
+  background-color: #0086B8;
+  border: 0;
+
+  padding: 5px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.city-btn {
+  text-align: center;
+}
+
+.city_text {
+  text-decoration: underline;
+  font-size: 17px;
+}
+
+
+.owl-nav {
+  text-align: center;
+  height: 50px;
+}
+.owl-next span {
+  font-size: 50px;
+}
+.owl-prev span {
+  font-size: 50px;
+}
+
+.mt-4-media {
+  margin-top: 60px;
+}
+
+.footer_center {
+  text-align: right;
+}
+
+.footer_inner_content {
+  display: grid;
+}
+.contuct_tell_block {
+  display: grid;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1230px) {
+  .main {
+      height: 89vh;
+  }
+  .input-size{
+    width: 100%;
+  }
+  .content_img {
+    width: 250px;
+    height: 250px;
+  }
+  .hunter{
+    display: none !important;
+  }
+  .modal-content_call_order {
+    width: 40%;
+    left: 30%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .map_block {
+    width:540px;
+    height: 250px;
+  }
+}
+
+
+@media screen and (max-width: 915px) {
+  .content_img {
+    width: 100px;
+  }
+  .input-size{
+    display: none;
+  }
+  .btn-invisible {
+    display: none;
+  }
+  .riki{
+    display: block;
+  }
+  .main-search-button{
+    width: 100px;
+    border-radius: 100px;
+  }
+  .for_search {
+    width: 100%;
+  }
+  .invisible-href {
+    display: block;
+  }
+
+  .city-btn {
+    text-align: center;
+  }
+
+  .modal-content_vacancy {
+    width: 70%;
+  }
+
+  .footer_block{
+    grid-template-columns:1fr;
+    justify-content: center;
+  }
+
+  .invisible_800 {
+    display: none;
+  }
+
+  .footer_inner_content {
+    display: grid;
+    justify-content: center;
+  }
+
+  .footer_center {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .modal-body {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .section_contuct {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .modal-content_call_order {
+    width: 60%;
+    left: 20%;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .content_img {
+    height: 130px;
+    width: 130px;
+  }
+
+  .map_block {
+    width: 400px;
+    height: 200px;
+  }
+
+  .mt-4-media {
+    margin-top: 0px;
+  }
+
+  .modal-content_vacancy {
+    width: 90%;
+  }
+
+  .modal-content_call_order {
+    width: 70%;
+    left: 16%;
+  }
+
+}
+
+@media screen and (max-width: 445px) {
+	.title-big {
+    font-size: 37px;
+	}
+	.menu_point_mobile_order{
+	font-size: 14px !important;
+}
+.menu_point_mobile_phone{
+	font-size: 17px !important;
+	color:#EF7D00 !important;
+}
+	#header_btn{
+		height: 30px;
+}
+  .invis {
+    display: none;
+  }
+
+  .map_block {
+    width: 300px;
+  }
+  .header-logo {
+    height: 35px;
+  }
+  .city_btn {
+    font-size: 15px;
+  }
+  .city_text {
+    font-size: 15px;
+  }
+  .invisible_445 {
+    display: none;
+  }
+  .visible_445 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .content_img {
+    height: 110px;
+    width: 110px;
+  }
+  .footer_block{
+    padding: 10px;
+    grid-gap: 10px;
+  }
+  #header_btn {
+    width: 30px;
+  }
+  .modal-content_call_order {
+    width: 100%;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .city_btn {
+    font-size: 10px;
+  }
+  .city_text {
+    font-size: 10px;
+  }
+  .header-logo {
+    height: 40px;
+  }
+
+
+}

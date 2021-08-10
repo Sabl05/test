@@ -1,0 +1,18 @@
+header{
+    z-index: 100;
+    position: relative;
+    background-color: #fff;
+    height: 95px;
+    position: relative;
+}
+    .header-logo{
+        height: 60px;
+        align-self:flex-start;
+    }
+    .btn-header{
+        background-color: #0086B8;
+        color: #fff
+    }
+#myBtn{
+	font-family: 'Roboto';
+}

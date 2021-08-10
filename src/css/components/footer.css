@@ -1,0 +1,33 @@
+.footer{
+    background-color: #515151;
+    height: 180px;
+	  margin-top: 6px;
+    background-color: #0086B8;
+}
+
+.footer-item_text{
+    color: white;
+    font-weight: 600;
+}
+
+.footer-inner {
+    height: 100%;
+}
+
+.footer-img{
+    width: 130px;
+}
+
+.footer-icon{
+    width: 15px;
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 915px) {
+  .footer {
+    height: 250px;
+  }
+  .footer_hyperlink_file {
+    height: 35px;
+  }
+}

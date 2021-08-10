@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.rounded{
+    border-radius: 2rem !important;
+    outline: none !important;
+
+}
+    .rounded:focus{
+        outline: none !important;
+    }
+
+.no-border{
+    border: none;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.card{
+    border: 0;
+}
+.section-card{
+    border: 1px solid #848484;
+    padding:23px 40px 15px 14px;
+    border-radius: 7px;
+}
+    .section-card_list{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-color: unset;
+
+    }
+    .number_of_vacancies{
+        text-decoration: none;
+        color: white;
+        width: 70%;
+        background: #0086B8;
+        border-radius: 6px;
+        /*padding: 15px 30px 15px 30px;*/
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-numberofvac:hover{
+        transition: .3s ease-in-out;
+        background-color: #515151;
+
+        color: white;
+        text-decoration: underline;
+    }
+
+.section-viewmore-container span{
+    font-size: 25px;
+}
+
+#search_keywords_input{
+    background: #FFFFFF;
+    border: 0.5px solid #EF7D00;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+#region_select{
+    background: #FFFFFF;
+    border: 0.5px solid #EF7D00;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.keyword{
+    width: 109px;
+    height: 22px;
+    background: #EF7D00;
+    border-radius: 7px;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.search_button_submit{
+    height: 56px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+
+    border-radius: 7px;
+}
+
+.vacancy_details{
+    border: 1px solid #9D9D9D;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.vacancy_card{
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 30px 40px 15px 15px;
+    cursor: pointer;
+}
+.section-card:hover{
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.section-card:hover >  .vacancy_details_price{
+    color: #0086B8;
+
+}
+
+
+.vacancy_details_price{
+    font-size: 30px;
+}
+
+.pagination_link{
+    border: 1px solid #C0C0C0;
+    box-sizing: border-box;
+    padding:1rem;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .search_button_submit {
+    font-size: 13px;
+  }
+}
